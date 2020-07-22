@@ -1,0 +1,24 @@
+{
+  "name": "mini-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "simpletest": "node --experimental-worker ./tests/simple.js",
+    "slicedtest": "node --experimental-worker ./tests/sliced.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkjinnee/mini-worker.git"
+  },
+  "keywords": [
+    "mini-worker",
+    "worker_threads"
+  ],
+  "author": "Dark Jinnee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkjinnee/mini-worker/issues"
+  },
+  "homepage": "https://github.com/darkjinnee/mini-worker#readme"
+}
